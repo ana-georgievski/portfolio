@@ -10,7 +10,9 @@
 * 	Template Style 
 *
 * ======================================================= */
-
+.name{
+  color: #000;
+}
 
 body {
   font-family: "Space Mono", Arial, serif;
@@ -346,7 +348,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .info li .first-block {
   width: 40%;
   display: inline-block;
-/*   color: #000; */
+  /* color: #000; */
   font-weight: bold;
 }
 .info li .second-block {
@@ -1305,7 +1307,6 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
 }
-
 
 .abc{
 display: block;
