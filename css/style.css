@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .info li .second-block {
   width: 60%;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.5);
+  /* color: rgba(0, 0, 0, 0.5); */
 }
 
 .fh5co-social-icons {
@@ -693,6 +693,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .progress-bar.progress-bar-1 {
   background-color: #1cdf6d !important;
+}
+
+.data-percent{
+  color: #1cdf6d;
 }
 
 .chart {
@@ -1199,21 +1203,21 @@ input[type="text"] {
 }
 
 .btn-danger {
-  background: #d9534f;
+  background: #ec0e76f3;
   color: #fff;
-  border: 2px solid #d9534f;
+  border: 2px solid #ec0e76f3;
 }
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
-  background: #d43f3a !important;
-  border-color: #d43f3a !important;
+  background: #ec0e76f3 !important;
+  border-color: #ec0e76f3 !important;
 }
 .btn-danger.btn-outline {
   background: transparent;
-  color: #d9534f;
-  border: 2px solid #d9534f;
+  color: #ec0e76f3;
+  border: 2px solid #ec0e76f3;
 }
 .btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
-  background: #d9534f;
+  background: #ec0e76f3;
   color: #fff;
 }
 
@@ -1267,7 +1271,7 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #1a91c0;
+  border-color: #ec0e76f3;
 }
 
 .row-pb-md {
