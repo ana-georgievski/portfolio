@@ -80,17 +80,17 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 ::-webkit-selection {
-  color: #fff;
+  color: #ec0e76f3;
   background: linear-gradient(#ec0e76f3, #ffffffef);
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #ec0e76f3;
   background: linear-gradient(#ec0e76f3, #ffffffef);
 }
 
 ::selection {
-  color: #fff;
+  color: #ec0e76f3;
   background: linear-gradient(#ec0e76f3, #ffffffef)
   ;
 }
@@ -651,7 +651,7 @@ h1, h2, h3, h4, h5, h6, figure {
     right: auto;
   }
 }
-.progress-wrap {
+/* .progress-wrap {
   width: 100%;
   float: left;
   margin-bottom: 10px;
@@ -695,11 +695,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .progress-bar.progress-bar-1 {
   background-color: #1cdf6d !important;
-}
+} */
 
-.data-percent{
+/* .data-percent{
   color: #1cdf6d;
-}
+} */
 
 .chart {
   width: 160px;
