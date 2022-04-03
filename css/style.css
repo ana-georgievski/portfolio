@@ -14,6 +14,16 @@
   color: #000;
 }
 
+#video{
+width: 620px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#video>h3{
+text-align: center;
+  }
+
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
@@ -947,7 +957,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-consult .choose {
     width: 100%;
     padding: 4em 1em;
-  }
+
 }
 
 .fh5co-video {
@@ -971,7 +981,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  padding: 50px 0;
+  padding: 20px 0;
   float: left;
   width: 100%;
 }
@@ -1035,7 +1045,7 @@ input[type="text"] {
   position: relative;
 }
 @media screen and (max-width: 768px) {
-  #map {
+  #map #video {
     height: 200px;
   }
 }
@@ -1295,6 +1305,7 @@ display: block;
   cursor: pointer;
 }
 
+
 @media screen and (min-width: 1200px){
   .flexouille, .flexouille2, .flexouille3, .flexouille4, .flexouille5, .flexouille6, .flexouille7, .flexouille8{
     display: flex;
@@ -1306,10 +1317,11 @@ display: block;
     transition: 0.4s;;
   }
 
-  /* @media screen and (max-width: 600px){
-    .flexouille, .flexouille2, .flexouille3, .flexouille4, .flexouille5, .flexouille6, .flexouille7, .flexouille8{
-      max-width: 150px;
-    } */
+  @media screen and (max-width: 600px){
+    .video{
+      width: 320px;
+      height: 240px;
+    }
 
   .croix, .croix2, .croix3, .croix4, .croix5, .croix6, .croix7, .croix8{
     position: absolute;
